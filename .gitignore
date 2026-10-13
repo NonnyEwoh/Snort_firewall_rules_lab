@@ -1,0 +1,26 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+*.swp
+*.swo
+
+# Do not commit malware or packet captures
+*.exe
+*.dll
+*.pcap
+*.pcapng
+
+# Credentials / secrets
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+id_ed25519
+credentials*
+secrets*
+
+# Local logs by default; explicitly review before adding evidence
+*.log
